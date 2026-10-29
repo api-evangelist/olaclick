@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-OlaClick is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.olaclick.com/?lang=en
+OlaClick provides an AI‑powered point‑of‑sale (POS) system for restaurants, offering digital menus, WhatsApp chatbot ordering, delivery integration, QR code ordering, inventory management, and analytics. Over 40,000 restaurants use the platform, backed by Google and Meta technologies, with a free trial and pricing starting at R$35 per month.
+
+**Areas:** Restaurant · POS · AI · SaaS · Delivery
+
+## OlaClick on APIs.io
+
+Everything profiled for OlaClick is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/olaclick/](https://apis.io/providers/olaclick/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [OlaClick Public API](https://apis.io/apis/olaclick/olaclick-public-api/) — REST API for accessing menus, orders, customers, and other resources.
+- [OlaClick API](https://apis.io/apis/olaclick/olaclick-api/) — OlaClick API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1CompanyResponse](https://apis.io/schemas/olaclick/olaclick-get-v1-company-response/)
+- [GetV1MenuProductsIdResponse](https://apis.io/schemas/olaclick/olaclick-get-v1-menu-products-id-response/)
+- [GetV1MenuProductsIdVariantsResponse](https://apis.io/schemas/olaclick/olaclick-get-v1-menu-products-id-variants-response/)
+- [GetV1MenuProductsResponse](https://apis.io/schemas/olaclick/olaclick-get-v1-menu-products-response/)
+- [PostOauthTokenRequest](https://apis.io/schemas/olaclick/olaclick-post-oauth-token-request/)
+- [PostV1OrdersRequest](https://apis.io/schemas/olaclick/olaclick-post-v1-orders-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Olaclick Context](https://apis.io/jsonld/olaclick/olaclick-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [OlaClick API Rules](https://apis.io/rules/olaclick/olaclick-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Olaclick Authentication](https://apis.io/security/olaclick/olaclick-authentication/)
+- [Olaclick Domain Security](https://apis.io/security/olaclick/olaclick-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Olaclick Scopes](https://apis.io/scopes/olaclick/olaclick-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Olaclick Rate Limits](https://apis.io/rate-limits/olaclick/olaclick-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.olaclick.com/?lang=en)
+- [Documentation](https://help.olaclick.com/)
+- [Getting started](https://olaclick.com/ponto-de-venda/)
+- [Pricing](https://pricing.olaclick.app/pt)
+- [Support](https://help.olaclick.com/pt-br/help/falar-com-o-suporte)
+- [Blog](https://olaclick.com/blog-pt/)
+
+## API Evangelist rating
+
+**Kin Score 48.0** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 55.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 50.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/olaclick/](https://apis.io/providers/olaclick/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OlaClick: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/olaclick/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
